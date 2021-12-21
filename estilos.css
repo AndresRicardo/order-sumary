@@ -1,0 +1,141 @@
+
+body{
+    background-image: url(images/pattern-background-desktop-mod.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_contenedor{
+    margin-top: var();
+    margin-bottom: auto;
+    width: 25%;
+    height: fit-content;
+    background: transparent;
+
+}
+
+.card{
+    background: white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+h1{
+    font-family: 'RedHD';
+    font-weight: 900;
+    margin: 1%;
+    padding: 1%;
+}
+
+p{
+    padding: 1% 6%;
+    margin: 2% 2%;
+    font-family: 'RedHD';
+    font-size: 16px;
+    text-align: center;
+}
+
+.price_resume{
+    padding: 8px;
+    margin: 1%;
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#exp{
+    display: flex;
+}
+
+.icon{
+    display: inline-block;
+    padding: 4px;
+}
+
+.plan_price{
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    width: min-content;
+    height: min-content;
+}
+
+.plan{
+    display: inline-block;
+    margin: 2%;
+    font-family: "RedHD";
+    font-weight: bold;
+}
+
+.price{
+    display: inline-block;
+    margin: 2%;
+    font-family: 'RedHD';
+}
+
+#change{
+    display: inline-block;
+    font-family: 'RedHD';
+    font-weight: 700;
+    margin: 1%;
+    padding: 1%;
+}
+
+.button_pay{
+    font-family: 'RedHD';
+    font-weight: 700;
+    background-color: blue;
+    color: hsl(225, 100%, 98%);
+    color: white;
+    padding: 3% 0%;
+    border-radius: 0.6em;
+    border-style: none;
+    width: 80%;
+    margin-top: 6%;
+    margin-bottom:1%;
+}
+
+.button_cancel{
+    font-family: 'RedHD';
+    font-weight: 700;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(225, 100%, 94%);
+    padding: 3% 0%;
+    border-radius: 0.6em;
+    border-style: none;
+    width: 80%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.button_pay:hover{
+    background-color: hsl(225, 100%, 94%);
+}
+
+.button_cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+#change:hover{
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+    
+}
+
+@font-face{
+    font-family: 'RedHD';
+    src: url('fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
