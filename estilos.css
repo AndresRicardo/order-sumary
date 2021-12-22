@@ -1,12 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     background-image: url(images/pattern-background-desktop-mod.svg);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    position: relative;
 }
 
 .card_contenedor{
+    position: absolute;
     margin-top: var();
     margin-bottom: auto;
     width: 25%;
@@ -46,7 +55,7 @@ p{
 }
 
 .price_resume{
-    padding: 8px;
+    padding: 1%;
     margin: 1%;
     width: 78%;
     display: flex;
@@ -119,15 +128,15 @@ p{
     margin-bottom: 6%;
 }
 
-.button_pay:hover{
+.button_pay:active{
     background-color: hsl(225, 100%, 94%);
 }
 
-.button_cancel:hover{
+.button_cancel:active{
     color: hsl(223, 47%, 23%);
 }
 
-#change:hover{
+#change:active{
     color: hsl(225, 100%, 94%);
     text-decoration: none;
     
